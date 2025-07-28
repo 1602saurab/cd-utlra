@@ -24,3 +24,19 @@ uv add -r requirements.txt
 
 create an app.py file where we have all the logics . 
 
+Now we will upload all the code to github . 
+
+git init
+
+git add .
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/1602saurab/cd-utlra.git
+
+git push -u origin main
+
+
+
+Now create a new folder  .github/workflows/s3_sync.yaml 
