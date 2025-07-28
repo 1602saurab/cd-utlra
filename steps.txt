@@ -1,0 +1,26 @@
+create a folder ---> open vs code in it ---> open terminal 
+
+uv init cdpro 
+
+close the vs code and open vs code from this cdpro folder . 
+
+
+uv venv 
+
+.venv\Scripts\activate 
+
+
+
+Upload your dataset in this cdpro folder . 
+
+
+Create 'requirements.txt' file in ehich we will install all packages that is 
+important to run the application . 
+
+open terminal and write 
+
+uv add -r requirements.txt 
+
+
+create an app.py file where we have all the logics . 
+
